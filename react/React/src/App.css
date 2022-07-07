@@ -1,29 +1,6 @@
 .App {
   text-align: center;
 }
-div{
-  box-sizing: border-box;
-
-}
-.list{
-  padding-left: 20px;
-  text-align: left;
-  border-bottom: 1px solid grey;
-}
-.modal{
-  margin-top: 20px;
-  padding: 20px;
-  background: pink;
-  text-align: left;
-}
-
-.black-nav{
-  display: flex;
-  background: pink;
-  width: 100%;
-  color: rgb(90, 0, 8);
-  padding-left: 20px;
-}
 
 .App-logo {
   height: 40vmin;
@@ -49,6 +26,12 @@ div{
 
 .App-link {
   color: #61dafb;
+}
+
+.gray-box {
+  background: gray;
+  width: 64px;
+  height: 64px;
 }
 
 @keyframes App-logo-spin {
